@@ -55,7 +55,7 @@ class Config(object):
     
     #vforce subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "-1002312169630")) 
     except:
         FORCE_SUB = os.environ.get("FORCE_SUB", "Hexa_Botz")
         
